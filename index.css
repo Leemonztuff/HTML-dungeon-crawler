@@ -16,3 +16,23 @@ canvas {
     color: azure;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* Estilo básico del botón */
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 4px;
+}
+
+/* Efecto al pasar el cursor */
+button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
