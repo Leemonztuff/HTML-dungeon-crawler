@@ -1,15 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <script src="js/howler.core.js"></script>
-    <script src="js/keypress.js"></script>
-    <script src="js/juego.js"></script>
-    <title>My first dungeon game 💀</title>
-    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My first dungeon game 💀</title>
+  
+  <!-- Importación de fuentes modernas -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Archivo de estilos -->
+  <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+
+  <!-- Scripts de la lógica del juego -->
+  <script src="js/howler.core.js"></script>
+  <script src="js/keypress.js"></script>
+  <script src="js/juego.js"></script>
 </head>
-<body onload='start();'>
-    <canvas id='canvas' width="750" height="500" style="border: 2px solid #000000;"></canvas>
-    <p class="c-text">Copyright © 2020 by Cuatroa</p>
+<body onload="start();">
+  <header>
+    <nav>
+      <h1>My First Dungeon Game 💀</h1>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="game-container">
+      <canvas id="canvas" width="750" height="500" style="border: 2px solid #000000;"></canvas>
+    </section>
+  </main>
+  
+  <footer>
+    <p class="c-text">&copy; 2020 by Cuatroa</p>
+  </footer>
 </body>
 </html>
